@@ -132,7 +132,7 @@
   .blocos.dois{grid-template-columns:repeat(2,1fr);}
   .abertura .outro{margin-top:14px;font-size:15px;}
   .outro a{color:var(--azul);font-weight:700;text-decoration:none;border-bottom:3px solid var(--amarelo);padding-bottom:2px;}
-  .escolhas{padding:34px 0 72px;background:var(--fundo);} .escolhas .wrap{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;}
+  .escolhas{padding:34px 0 72px;background:var(--fundo);} .escolhas .wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;}
   @media (max-width:760px){.escolhas .wrap{grid-template-columns:1fr;}}
   .escolha{display:flex;flex-direction:column;gap:8px;text-decoration:none;border-radius:18px;padding:28px;color:#fff;transition:transform .15s ease;}
   .escolha:hover{transform:translateY(-3px);}
@@ -215,11 +215,11 @@
   <div class="wrap">
     <span class="olho">Rede Agathos · Central de Onboarding Teachy</span>
     <h1>O caminho certo para <em>cada pessoa</em> começar na Teachy.</h1>
-    <p>Escolha a página certa para você: uma para a equipe da escola e outra para alunos e famílias.</p>
+    <p>Escolha a página certa para você.</p>
   </div>
 </section>
 
-<section class="escolhas"><div class="wrap"><a class="escolha" href="equipe/" style="background:#003176;color:#FFFFFF;"><span class="ics"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.4l2.86 6.5 7.04.6-5.33 4.66 1.6 6.9L12 17.4 5.83 21.06l1.6-6.9L2.1 9.5l7.04-.6z"/></svg></span><strong>Gestores e professores</strong><small>Roteiros de acesso, formações e tutoriais em vídeo da equipe da escola.</small><em>Abrir página →</em></a><a class="escolha" href="familias/" style="background:#FF9D00;color:#FFFFFF;"><span class="ics"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.4l2.86 6.5 7.04.6-5.33 4.66 1.6 6.9L12 17.4 5.83 21.06l1.6-6.9L2.1 9.5l7.04-.6z"/></svg></span><strong>Famílias e alunos</strong><small>Primeiro acesso, app e tutoriais em vídeo para quem estuda e para quem acompanha.</small><em>Abrir página →</em></a></div></section>
+<section class="escolhas"><div class="wrap"><a class="escolha" href="gestores/" style="background:#003176;color:#FFFFFF;"><span class="ics"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.4l2.86 6.5 7.04.6-5.33 4.66 1.6 6.9L12 17.4 5.83 21.06l1.6-6.9L2.1 9.5l7.04-.6z"/></svg></span><strong>Gestores</strong><small>Primeiro acesso ao painel da escola e tutoriais em vídeo para direção e coordenação.</small><em>Abrir página →</em></a><a class="escolha" href="professores/" style="background:#0072C0;color:#FFFFFF;"><span class="ics"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.4l2.86 6.5 7.04.6-5.33 4.66 1.6 6.9L12 17.4 5.83 21.06l1.6-6.9L2.1 9.5l7.04-.6z"/></svg></span><strong>Professores</strong><small>Primeiro acesso, primeira aula e tutoriais em vídeo para quem dá aula.</small><em>Abrir página →</em></a><a class="escolha" href="familias/" style="background:#FF9D00;color:#FFFFFF;"><span class="ics"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.4l2.86 6.5 7.04.6-5.33 4.66 1.6 6.9L12 17.4 5.83 21.06l1.6-6.9L2.1 9.5l7.04-.6z"/></svg></span><strong>Famílias e alunos</strong><small>Primeiro acesso, app e tutoriais em vídeo para quem estuda e para quem acompanha.</small><em>Abrir página →</em></a></div></section>
 
 
 <script>
